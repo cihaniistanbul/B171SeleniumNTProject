@@ -47,4 +47,9 @@ public abstract class TestBase {
         select.selectByIndex(index);
     }
 
+    //Window Handles
+    public void window(int index){
+        driver.switchTo().window(driver.getWindowHandles().toArray()[index].toString());
+    }
+
 }
