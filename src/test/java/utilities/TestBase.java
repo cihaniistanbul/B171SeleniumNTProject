@@ -52,4 +52,8 @@ public abstract class TestBase {
         driver.switchTo().window(driver.getWindowHandles().toArray()[index].toString());
     }
 
+    //Iframe Index
+    public void frameIndex(int index){
+        driver.switchTo().frame(index);
+    }
 }
