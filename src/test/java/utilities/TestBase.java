@@ -23,7 +23,7 @@ public abstract class TestBase {
     @After
     public void tearDown() throws Exception {
         bekle(3);
-        driver.quit();
+        //driver.quit();
     }
 
     //HARD WAIT
